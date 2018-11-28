@@ -41,7 +41,7 @@ body, html {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/brick.jpg");
     background-size: cover;
-    height: 62%;
+    height: 75%;
     
 }
 
@@ -71,9 +71,28 @@ body, html {
     color:black;
 }
 
-.portfolio-examples{
+
+.col{
     text-align: center;
 }
+
+
+/* 
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+} */
+
+
+
+
+
 
 
 .icon{
