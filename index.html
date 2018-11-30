@@ -33,7 +33,6 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
- 
   </head>
 
   <body>
@@ -51,11 +50,11 @@
         Dropdown button
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Home</a>
-        <a class="dropdown-item" href="#">About</a>
-        <a class="dropdown-item" href="#">Services</a>
-        <a class="dropdown-item" href="#">Portfolio</a>
-        <a class="dropdown-item" href="#">Download Resume</a>
+        <!-- <a class="dropdown-item" href="#home">Home</a>
+        <a class="dropdown-item" href="#about">About</a> -->
+        <a class="dropdown-item" href="#services">Services</a>
+        <a class="dropdown-item" href="#portfolio">Portfolio</a>
+        <a class="dropdown-item"href="assets/Resume/GLaPorteResume.docx" download="GLaPorteResume">Download Resume</a>
       </div>
     </div>
 
@@ -89,10 +88,10 @@
               pharetra.
             </p>
             <!-- <a href="https://unsplash.com/">GitHub</a>!</p> -->
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="Assets/Resume/GLaPorteResume.docx" download="GLaPorteResume"
               >Resume</a
             >
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"
+            <a class="btn btn-dark btn-xl js-scroll-trigger" target="_blank" href="https://github.com/GcLaPorte"
               >GitHub</a
             >
           </div>
@@ -104,7 +103,7 @@
 
     <!-- Skills Display -->
 
-    <div class="skills-background">
+    <div class="skills-background" id="services">
     
       <div class="skills-heading">
           <br>
@@ -212,15 +211,15 @@
 
     <!-- Recent Projects -->
 
-    <div class="projects">
+     <div class="projects" id="portfolio">
       <div class="portfolio-heading">
         <h4>Portfolio</h4>
         <h2>Recent Projects</h2>
       </div>
-      <br />
+      <br>
 
-      <div class "portfolio-examples">
-      <div class="container">
+      <!-- <div class "portfolio-examples"> -->
+      <!-- <div class="container">
         <div class="row">
           <div class="col column">
             <img
@@ -235,9 +234,9 @@
               alt="nope"
               style="width:400px;height:400px;"
             />
-          </div>
+          </div> -->
           <!-- <div class="w-100"></div> -->
-          <div class="col column">
+          <!-- <div class="col column">
             <img
               src="img/upsidedown.jpg"
               alt="nope"
@@ -253,7 +252,99 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div class="main2" >
+
+        <!-- <h1>MYLOGO.COM</h1>
+        <hr>
+        
+        <h2>PORTFOLIO</h2>
+        <p>Resize the browser window to see the responsive effect.</p>
+         -->
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <img src="img/universe.jpg" alt="Mountains" style="width:100%">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="img/Toko.jpg" alt="Lights" style="width:100%">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="img/upsidedown.jpg" alt="Nature" style="width:100%">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="img/upsidedown.jpg" alt="Mountains" style="width:100%">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+        </div>
+        
+<br>
+
+<div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="img/universe.jpg" alt="Mountains" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum..</p>
+      </div>
     </div>
+    <div class="column">
+      <div class="content">
+        <img src="img/Toko.jpg" alt="Lights" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="img/upsidedown.jpg" alt="Nature" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="img/open.jpg" alt="Mountains" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+        <!-- <div class="content">
+          <img src="img/lights.jpg" alt="Bear" style="width:100%">
+          <h3>Some Other Work</h3>
+          <p>Lorem ipsum..</p>
+        </div> -->
+        
+        <!-- END MAIN -->
+        </div>
+
+
+
+
+
 
 
 
@@ -261,10 +352,19 @@
       <br />
       <div class="final-thoughts">
         <div class="link-buttons">
-           <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="margin:50px">Resume </a>
+           <!-- <a href="Assets/Resume/GLaPorteResume.docx" download="GLaPorteResume" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="margin:50px">Resume </a>
 
-          <button type="button" class="btn btn-secondary btn-lg" style="margin:50px"> GitHub</a> 
-        
+           <a class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="margin:50px" target="_blank" href="https://github.com/GcLaPorte">Github </a>
+         -->
+
+
+         <a target="_blank" href="https://github.com/GcLaPorte"><img src="img/GitHub-Mark-64px.png" width="50" height="50" alt="GIT"></a>
+         <!-- <div class="divider"/> -->
+               <a target="_blank" href="https://www.linkedin.com/in/gabe-laporte/"><img src="img/linkedin-logo-copy.png" width="50" height="50" alt="LinkdIN"></a>
+         
+               <a href="assets/Resume/GLaPorteResume.docx" download="GLaPorteResume"><img src="img/GLResume.png" width="50" height="50" alt="resume"></a>
+
+
 
         </div>
 
@@ -275,21 +375,30 @@
 
       <!-- <div class="card-body"> -->
        
-        <div class ="social-links">
+        <!-- <div class ="social-links"> -->
        
         <!-- <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">
           With supporting text below as a natural lead-in to additional content.
         </p> -->
-        <a href="#" class="fa fa-facebook" style="margin:20px"></a>
+        <!-- <a href="#" class="fa fa-facebook" style="margin:20px"></a> -->
         <!-- <div class="divider"/> -->
-        <a href="#" class="fa fa-linkedin" style="margin:20px"></a>
+        <!-- <a href="#" class="fa fa-linkedin" style="margin:20px"></a> -->
         <!-- <div class="divider"/> -->
-        <a href="#" class="fa fa-google" style="margin:20px"></a>
+        <!-- <a href="#" class="fa fa-google" style="margin:20px"></a> -->
       <!-- </div> -->
+      <!-- <a target="_blank" href="https://github.com/GcLaPorte"><img src="img/GitHub-Mark-64px.png" width="50" height="50" alt="GIT"></a> -->
+<!-- <div class="divider"/> -->
+      <!-- <a target="_blank" href="https://www.linkedin.com/in/gabe-laporte/"><img src="img/linkedin-logo-copy.png" width="50" height="50" alt="LinkdIN"></a> -->
 
-    </div>
+      <!-- <a href="assets/Resume/GLaPorteResume.docx" download="GLaPorteResume"><img src="img/GLResume.png" width="50" height="50" alt="resume"></a> -->
+
+    <!-- </div> -->
     
+
+<!-- <br> -->
+
+    <!-- <script src="script.js"></script> -->
 
   </body>
 </html>
