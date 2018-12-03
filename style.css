@@ -59,11 +59,7 @@ body, html {
    
 }
 
-/* .topbuttons{
-    font-family: 'East Sea Dokdo', cursive;
-    width: 50px;
-        height: 25px;
-} */
+
 
 .skills{
     color: white;
@@ -82,12 +78,16 @@ body, html {
 .introtitle{
 
     font-family: 'Shojumaru', cursive;
+
+    color: rgb(122, 5, 5);
 }
 
 
 
 .introbody{
     font-family: 'IM Fell DW Pica', serif;
+
+    color: rgb(12, 11, 11);
 
 }
 
