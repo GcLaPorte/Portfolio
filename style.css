@@ -8,6 +8,14 @@
 
 body, html {
     height: 100%;
+
+        padding: 20px;
+        font-family: Arial;
+        background-image: url("img/wood.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+ 
    
 }
 
@@ -37,16 +45,34 @@ body, html {
     font-family: 'Buda', cursive;
 }
 
-#portfolio{
-    font-family: 'Love Ya Like A Sister', cursive;
+
+.introtitle{
+
+    font-family: 'Shojumaru', cursive;
+
+    color: rgb(122, 5, 5);
+
+    text-align: center;
 }
+
+
+.introbody{
+    font-family: 'IM Fell DW Pica', serif;
+
+    color: rgb(12, 11, 11);
+
+    text-align: center;
+
+}
+
+
 
 
 .skills-background{
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/unclesam.jpg");
     background-size: cover;
-    height: 75%;
+    height: 80%;
     
 }
 
@@ -75,21 +101,13 @@ body, html {
     color:black;
 }
 
-.introtitle{
 
-    font-family: 'Shojumaru', cursive;
-
-    color: rgb(122, 5, 5);
+#portfolio{
+    font-family: 'Love Ya Like A Sister', cursive;
 }
 
 
 
-.introbody{
-    font-family: 'IM Fell DW Pica', serif;
-
-    color: rgb(12, 11, 11);
-
-}
 
 
 
@@ -98,33 +116,15 @@ body, html {
 }
 
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-body {
-    /* background-color:white; */
-    padding: 20px;
-    font-family: Arial;
-    background-image: url("img/wood.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
-/* Center website */
-.main2 {
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 50px;
-    word-break: break-all;
-}
 
 .row {
     margin: 8px -16px;
+    
 }
 
 /* Add padding BETWEEN each column (if you want) */
@@ -150,24 +150,67 @@ h1 {
 .content {
     background-color: white;
     padding: 10px;
+    /* margin-top: 10px; */
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .column {
         width: 50%;
     }
-}
+} */
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column {
         width: 100%;
     }
-}
+} */
 
 
 
+
+
+
+.container {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  /* .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 100%;
+    width: 100%; */
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 
 
@@ -179,9 +222,30 @@ h1 {
 
 
 
+
+
+.nav{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 .link-buttons{
     margin-left:40px;
+    text-align: center;
 }
+
+
+
+/* .final-thoughts{
+    text-align: center;  
+} */
+
+
 
 .social-links{
     text-align: center;
@@ -218,3 +282,6 @@ h1 {
     background: #007bb5;
     color: white;
   }
+
+
+
